@@ -1,0 +1,131 @@
+#p1 {
+    color:#264;
+    font-style: italic;
+    font-weight:bolder;
+}
+.p1 {
+    color:#359;
+    font-size:10px;
+}
+p{
+    color:red;
+}
+body {
+    background-color:#000;
+}
+h1 {
+    color:yellow;
+} 
+/* deux couleur class et id */
+.pot {
+    color:#951;
+}
+#op{
+    font-size: 25px;
+}
+
+/*pour le styles class+id01.html */
+body {
+    background-color:#000;
+}
+#yyp {
+    font-style:oblique;
+    color:#419;
+    font-weight: bold;
+}
+.Ap {
+    color:#981;
+    font-weight:100%;
+}
+#yp {
+    font-style:normal;
+    color:#758;
+}
+.App {
+    color:#246;
+    font-size: 40px;
+    font-style:italic;
+}
+#App {
+    font-weight:bolder;
+    color:yellow;
+}
+/* heritage.html*/
+
+body {
+    color :rgb(54, 191, 91);
+}
+#pas6{
+    color:#629;
+    font-style:oblique;
+    font-weight:bolder;
+    font-size:20px;
+}
+/*block+inlinehtml*/
+/* => cree des bordure*/
+#xp{
+    color:red;
+}
+.ttp{
+    color:#777;
+}
+.kkl{
+    border:1px solid red;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.item p{
+    text-align: center;
+    color:red;
+}
+strong {
+    border:1px solid yellow;
+}
+/* div et span */ 
+/*div et span ne sert pas à donner du sens */
+/* le html est de structure le contenu et de lui donner du sens */
+
+/* on ecrit : <div class="p5"><p> + <p> +<p>autent de fois </div> */
+.p5 {
+    background-color:blue;
+}
+/* on ecrit: <span id="p56"> text </span> */
+#p56{
+    color:rgb(244, 242, 244); /*ça c'est span qui sert à encadrer un text tout simplement */
+}
+
+/* font-family aui nous permet de changer la police d'ecriture de mon texte */
+body {
+    font-family:"century Gothic",Verdana, sans-serif;
+}
+/*font-zeight sert à modifier le poid de nos text */
+/*font-styles sert à modifier le style de nos text*/
+/*font-size sert à modifier la taille de nos text*/
+
+.p20{
+    font-weight:900;
+}
+/*text*/
+.gt0{
+    color:blue;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-indent: 2px;
+    text-shadow:-3px -5px 5px #555;
+    line-height: 20px;
+}
+#poo{
+    text-decoration: underline; /*soulignement de text*/
+    text-transform: capitalize;/*transformer le texte*/
+    text-indent: 3px; /*indenter le texte*/
+    text-shadow:3px 5px 5px yellow;
+    line-height: 35px;
+}
+.gg{
+    text-shadow: 0px 0px 20px ivory;
+    font-size: 40px;
+    line-height: 60px;
+}
+
